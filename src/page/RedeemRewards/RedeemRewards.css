@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+.app {
+    display: flex;
+    margin-top: 20px;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+  .product-list-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  .product-list {
+    margin: 0 10px 20px;
+  }
+  
+  .main-header {
+    text-align: center;
+  }
+  
+  .product-list {
+    width: 35%; 
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 16px;  
+  }
+  
+  th {
+    background-color: #0ABAB5;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color:  #f2f2f2;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .decrease {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 57, 73); 
+    color: white;
+    border-radius: 5px; 
+    border: 1px solid transparent; 
+  }
+  
+  .increase {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(116, 213, 37); 
+    color: white;
+    border-radius: 5px; 
+    border: 1px solid transparent; 
+  }
+  
+  input {
+    width: 40px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 5px; 
+    border: 1px solid #a4a4a4; 
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .submit-container {
+    display: flex;
+    width: 70%;
+    justify-content: flex-end;
+    margin-top: 10px; 
+    background-color: transparent;
+  }
+  
+  .submit-button {
+    font-size:larger; 
+    border: 2px solid transparent; 
+    padding: 5px 20px; 
+    border-radius: 10px; 
+    background-color: rgb(116, 213, 37);
+  }
+  
+  .submit-button-for-Modal {
+    font-size:larger; 
+    border: 2px solid transparent; 
+    padding: 5px 20px; 
+    border-radius: 10px; 
+    background-color: #0ABAB5;
+  }
+  
+  .back-button {
+    font-size:larger; 
+    border: 2px solid transparent; 
+    padding: 5px 25px; 
+    border-radius: 10px; 
+    background-color: rgb(255, 57, 73);
+    margin-right: 30px;
+  }
+  
+  .input-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: transparent;
+  }
+  
+  .input-row label {
+    margin-left: 15px;
+    background-color: transparent;
+  }
+  
+  .input-row input {
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #a4a4a4;
+    background-color: transparent;
+  }
+  
+  
