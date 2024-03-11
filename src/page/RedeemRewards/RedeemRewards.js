@@ -81,7 +81,7 @@ function RedeemRewards() {
 
   // Back-end รับข้อมูล allProducts ในหน้านี้
   const handleSubmit = async() => {
-    
+    setShowOTPModal(true);
     await axios.post('http://localhost:3001/sendSMTPToEmail',{
       usernameReceiver: `${dataCustomer.username}`
     })
@@ -103,7 +103,7 @@ function RedeemRewards() {
     setThirdProducts(thirdProducts.map(product => ({ ...product, quantity: 0 })));
     setFourthProducts(fourthProducts.map(product => ({ ...product, quantity: 0 })));*/
 
-    setShowOTPModal(true);
+    
   };
 
   const handleGoBack = () => {

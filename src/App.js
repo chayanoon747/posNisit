@@ -5,12 +5,14 @@ import Profile from "./page/profile/profile"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import TopUp from "./page/TopUp/TopUp";
 import RedeemRewards from "./page/RedeemRewards/RedeemRewards";
+import WaitingCard from "./page/WatingCard/WaitingCard";
 
 function App() {
   return(
     <Router>
       <Routes>
-        <Route path="/" element={<Register />} />
+        <Route path="/" element={<WaitingCard />} />
+        <Route path="/register" element={<Register />} />
         <Route
           path="/*"
           element=
